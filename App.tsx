@@ -48,8 +48,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 };
 
 const App: React.FC = () => {
+  // Determine basename based on environment
+  const basename = import.meta.env.DEV ? '/' : '/qingdao-bank-system/';
+  
   return (
-    <HashRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter basename={basename}>
       <Layout>
         <Routes>
           <Route path="/" element={<Login />} />
