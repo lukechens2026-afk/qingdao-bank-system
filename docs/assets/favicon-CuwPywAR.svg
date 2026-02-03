@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- 红色背景 -->
+  <rect width="32" height="32" fill="#E60012" rx="4"/>
+  
+  <!-- 白色 "青" 字 -->
+  <text x="16" y="24" font-size="24" font-weight="bold" fill="white" text-anchor="middle" font-family="SimSun, serif">青</text>
+</svg>
