@@ -49,7 +49,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    <HashRouter basename={import.meta.env.BASE_URL}>
       <Layout>
         <Routes>
           <Route path="/" element={<Login />} />
