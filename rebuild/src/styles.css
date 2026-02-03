@@ -1,0 +1,6 @@
+html,body,#root{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#F7F8FA}
+.app-root{min-height:100%;display:flex;flex-direction:column}
+.header{background:#E60012;color:#fff;padding:28px 16px}
+.header h1{margin:0;font-size:18px}
+.content{flex:1;padding:20px}
+.footer{padding:12px;text-align:center;color:#666}
